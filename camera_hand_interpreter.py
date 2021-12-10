@@ -1,3 +1,9 @@
+# Licenses
+# https://docs.opencv.org/4.x/d0/d86/tutorial_py_image_arithmetics.html
+# https://obsproject.com/download
+# Start virtual cam before teams
+# https://google.github.io/mediapipe/solutions/hands.html
+
 import cv2
 import mediapipe as mp
 import time
@@ -52,7 +58,7 @@ while True:
                 #if id ==0:
                 #cv2.circle(img, (cx,cy), 3, (255,0,255), cv2.FILLED)
 
-            mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
+            #mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 
     else:
         x1,y1 =0,0
