@@ -3,6 +3,7 @@
 # https://obsproject.com/download
 # Start virtual cam before teams
 # https://google.github.io/mediapipe/solutions/hands.html
+# Building exe - pip install pyinstaller (pyinstaller --onefile <nameofpy.py>)
 
 import cv2
 import mediapipe as mp
